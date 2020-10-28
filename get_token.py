@@ -1,9 +1,9 @@
 import requests
 import json
 
-key = "<A_VALID_COMPANY_KEY>"
-user = "<A_VALID_USER>"
-passwd = "<A_VALID_PASS>"
+key = "5f210efc-8898-3b6d-baee-94274cd64adb"
+user = "DiogoB"
+passwd = "asdf"
 
 url = 'https://api.pptxbuilder.com/api/auth/token'
 
@@ -15,7 +15,7 @@ response = requests.post(url, data=body, headers=headers,
 
 if response.status_code != 200:
     response_msg = response.json()
-    print(response_msg['error'])
+    print(response_msg)
 else:
     token = response.headers['Authentication-Token']
     content = response.content

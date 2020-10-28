@@ -15,7 +15,7 @@ response = requests.post(url, data=body, headers=headers,
 
 if response.status_code != 200:
     response_msg = response.json()
-    print(response_msg['error'])
+    print(response_msg)
 else:
     response_msg = response.json()
     token = response.headers['Authentication-Token']
