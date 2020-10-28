@@ -6,7 +6,7 @@ This repository contains a set of examples on how to perform requests and struct
 ### Prepare your token
 - Navigate to https://api.pptxbuilder.com 
 - Create an account or login into your existing account.
-- Navigate to the `Company` page and identify the company key provided.
+- Navigate to the `Company` page, create a new company and identify the company key provided.
 - Open the file `get_token.py` and replace the credentials.
 
 ### Create a virtual env
