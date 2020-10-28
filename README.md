@@ -8,7 +8,7 @@ This repository contains a set of examples on how to perform requests and struct
 - Create an account or login into your existing account.
 - Navigate to the `Company` page, 
      - create a new company and identify the company key provided.
-     - upload a PPTX Builder friendly PowerPoint template. How to prepare a PowerPoint template: https://wiki.pptxbuilder.com/getting-started-1/preparing-powerpoint-templates
+     - upload a 'PPTX Builder' friendly PowerPoint template if you want to use your own PowerPoint, if one is not provided then a default template is used. How to prepare a PowerPoint template: https://wiki.pptxbuilder.com/getting-started-1/preparing-powerpoint-templates
 - Open the file `get_token.py` and replace the credentials.
 
 ### Create a virtual env
