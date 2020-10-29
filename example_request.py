@@ -16,7 +16,10 @@ response = requests.post(url, data=body, headers=headers)
 content = response.content
 
 if response.status_code != 200:
-    print(response.json())
+    try:
+        print(response.json())
+    except:
+        print(response)
 else:
     disposition = response.headers['Content-Disposition']
     file_name = disposition.split(';')[-1].strip().split('=')[1]
