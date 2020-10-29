@@ -1,7 +1,6 @@
 {
   "base_settings": {
-    "file_name": "column_stacked_demo",
-    "company_template": ""
+    "file_name": "column_stacked_demo"
   },
   "body": [{
     "table_text": "IceCream",

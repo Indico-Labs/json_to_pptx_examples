@@ -1,7 +1,7 @@
 import requests
 
-token = "<A_VALID_TOKEN>"
-data_path = "example_data/data_table.json"
+token = "<YOUR_TOKEN>"
+data_path = "example_data/bar.json"
 
 # preparing body for request
 with open(data_path, 'rb') as f:
