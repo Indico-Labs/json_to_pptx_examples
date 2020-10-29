@@ -1,9 +1,9 @@
 import requests
 import json
 
-key = "5f210efc-8898-3b6d-baee-94274cd64adb"
-user = "DiogoB"
-passwd = "asdf"
+key = "<YOUR_COMPANY_KEY>"
+user = "<YOUR_API_USER>"
+passwd = "<YOUR_PASS>"
 
 url = 'https://api.pptxbuilder.com/api/auth/token'
 
