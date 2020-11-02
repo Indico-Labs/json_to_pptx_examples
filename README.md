@@ -16,7 +16,7 @@ Create a virtual environment in the root of the directory.
 ``` $ python3 -m venv env ```
 
 ### Install dependencies
-``` $ pip install requests ```
+``` $ pip install -r requirements.txt ```
 
 ### Get a valid token
 Once you have updated the values in `get_token.py`, you can then run it and get your authentication token.
