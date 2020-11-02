@@ -5,7 +5,7 @@ This repository contains a set of examples on how to perform requests and struct
 
 ### Prepare your token
 - Navigate to https://api.pptxbuilder.com 
-- Create an account or login into your existing account.
+- Login into your existing account or create an account (make a note of your username, you will need it later).
 - Navigate to the `Company` page, 
      - create a new company and identify the company key provided.
      - upload a 'PPTX Builder' friendly PowerPoint template if you want to use your own PowerPoint, if one is not provided then a default template is used. How to prepare a PowerPoint template: https://wiki.pptxbuilder.com/getting-started-1/preparing-powerpoint-templates
