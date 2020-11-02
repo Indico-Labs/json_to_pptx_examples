@@ -1,5 +1,5 @@
 # JSON to PPTX examples
-This repository contains a set of examples on how to perform requests and structure your data in order to convert json data into pptx presentations.
+This repository contains a set of examples on how to perform requests and structure your data in order to convert JSON data into PowerPoint presentations.
 
 ## Get Started
 
