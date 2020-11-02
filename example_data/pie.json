@@ -1,12 +1,13 @@
 {
    "base_settings":{
-      "file_name":"pie_demo"
+      "file_name":"pie_demo",
+       "company_template":"CitizenMe_Template.pptx"
    },
    "body":[
       {
          "table_text":"IceCream",
          "question_text":"Which flavour of ice-cream is your favourite?",
-         "base_text":"",
+         "base_text":"All respondents",
          "rows":[
             "Chocolate",
             "Vanilla",
